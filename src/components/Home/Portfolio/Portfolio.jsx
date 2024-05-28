@@ -42,8 +42,8 @@ export default function Portfolio() {
         </div> */}
         <button onClick={() => onButtonClick()}>Download Resume</button>
         <div className={classes.social}>
-          <div>React JS</div>|<div>Next JS</div>|<div>FastAPI</div>|
-          <div>MongoDB</div>
+          <div>React JS</div>|<div>FastAPI</div>|<div>MongoDB</div>|
+          <div>Scikit-Learn</div>
         </div>
       </div>
       <div className={classes.right}>
