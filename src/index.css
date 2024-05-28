@@ -1,13 +1,126 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  scrollbar-width: thin;
+  scrollbar-color: #c5c5c5 #f6f6f6;
+  width: 100%;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+:root {
+  /* --primary: rgb(5, 5, 16); */
+  --primary: #000;
+  --secondary: #ffff;
+  /* --tertiary: rgb(18, 154, 134); */
+  --tertiary: rgb(67, 230, 157);
+  --orange: rgb(255, 124, 48);
+  --light-orange: rgb(255, 185, 63);
+  --light-blue: rgb(125, 166, 255);
+  --grey: rgb(34, 34, 34);
+}
+
+body::-webkit-scrollbar {
+  width: 0.7rem;
+  height: 0.7rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--primary);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--primary);
+  border-radius: 20px;
+  border: none;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 100%;
+}
+
+@media (max-width: 1920px) {
+  html {
+    font-size: 120%;
+  }
+}
+
+@media (max-width: 1830px) {
+  html {
+    font-size: 100%;
+  }
+}
+
+@media (max-width: 1536px) {
+  html {
+    font-size: 90%;
+  }
+}
+
+@media (max-width: 1366px) {
+  html {
+    font-size: 80%;
+  }
+}
+
+@media (max-width: 1281px) {
+  html {
+    font-size: 75%;
+  }
+}
+
+@media (max-width: 1150px) {
+  html {
+    font-size: 75%;
+  }
+}
+
+@media (max-width: 1080px) {
+  html {
+    font-size: 75%;
+  }
+}
+
+@media (max-width: 920px) {
+  html {
+    font-size: 70%;
+  }
+}
+
+@media (max-width: 770px) {
+  html {
+    font-size: 70%;
+  }
+}
+
+@media (max-width: 480px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media (max-width: 430px) {
+  html {
+    font-size: 90%;
+  }
+}
+
+@media (max-width: 380px) {
+  html {
+    font-size: 90%;
+  }
+}
+
+@media (max-width: 320px) {
+  html {
+    font-size: 75%;
+  }
 }

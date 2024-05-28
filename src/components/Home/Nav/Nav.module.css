@@ -1,0 +1,122 @@
+.wrapper {
+  /* box-shadow: 0.1rem 0.1rem 0.9rem 0.01rem rgb(234, 234, 234); */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 5rem;
+  background-color: var(--primary);
+  color: var(--secondary);
+  position: relative;
+}
+
+.wrapper > div:nth-child(1) {
+  font-size: 2rem;
+  font-weight: 600;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  cursor: default;
+  color: var(--tertiary);
+}
+
+.options {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  cursor: pointer;
+}
+
+.options div {
+  transition: 0.2s ease-in-out;
+  font-size: 1.2rem;
+}
+
+.options div:hover {
+  border-bottom: 2px var(--secondary) solid;
+  padding-bottom: 0.2rem;
+}
+
+.border {
+  border-bottom: 2px var(--tertiary) solid;
+  padding-bottom: 0.2rem;
+}
+
+.optionsMob {
+  display: none;
+}
+
+.slider {
+  display: none;
+}
+
+.sliderClose {
+  display: none;
+}
+
+@media (max-width: 990px) {
+  .wrapper {
+    padding: 2rem 2rem;
+  }
+
+  .wrapper > div:nth-child(1) {
+    font-size: 3rem;
+  }
+
+  .options {
+    display: none;
+  }
+
+  .optionsMob,
+  .optionsMobClose {
+    display: block;
+    position: relative;
+  }
+
+  .optionsMob > span,
+  .optionsMobClose > span {
+    display: block;
+    width: 3rem;
+    height: 3px;
+    background-color: var(--secondary);
+    margin: 6px 0 2px;
+    transition: 0.5s;
+  }
+
+  .optionsMob > span:nth-child(1) {
+    width: 1.5rem;
+  }
+
+  .optionsMobClose > span:nth-child(3) {
+    width: 1.5rem;
+  }
+
+  .slider {
+    display: block;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 75vh;
+    background-color: rgba(162, 162, 162, 0.969);
+    z-index: 100;
+    padding: 4rem 0 0 0;
+  }
+
+  .slider > div {
+    padding: 2rem;
+    text-align: left;
+    font-size: 2rem;
+  }
+
+  .borderMob {
+    color: var(--tertiary);
+    background-color: rgba(0, 0, 0, 0.784);
+  }
+
+  .slider > .close {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    font-size: 2.5rem;
+  }
+}
