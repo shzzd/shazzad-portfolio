@@ -1,236 +1,240 @@
 .wrapper {
-  /* border: 1px red solid; */
-  padding: 3rem 5rem 5rem 5rem;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  background-color: var(--primary);
-  color: var(--secondary);
-  cursor: default;
+    /* border: 1px red solid; */
+    padding: 3rem 5rem 5rem 5rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: var(--primary);
+    color: var(--secondary);
+    cursor: default;
 }
 
 .intro {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
 }
 
 .intro > div:nth-child(1) {
-  font-size: 1.5rem;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  animation: d1 2s;
-  animation-direction: alternate;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    animation: d1 2s;
+    animation-direction: alternate;
 }
 
 .intro > div:nth-child(2) {
-  font-size: 4rem;
-  text-align: left;
-  position: relative;
-  animation: d2 1.5s;
-  animation-direction: alternate;
+    font-size: 4rem;
+    text-align: left;
+    position: relative;
+    animation: d2 1.5s;
+    animation-direction: alternate;
 }
 
 .intro > div:nth-child(3) {
-  font-size: 2rem;
-  color: var(--tertiary);
-  text-align: left;
-  position: relative;
-  animation: d3 2s;
-  animation-direction: alternate;
+    font-size: 2rem;
+    color: var(--tertiary);
+    text-align: left;
+    position: relative;
+    animation: d3 2s;
+    animation-direction: alternate;
 }
 
 .intro > div:nth-child(4) {
-  font-size: 1.1rem;
-  color: rgb(145, 145, 145);
-  text-align: justify;
-  margin-top: 0.5rem;
-  padding: 0 2rem 0 0;
+    font-size: 1.1rem;
+    color: rgb(145, 145, 145);
+    text-align: justify;
+    margin-top: 0.5rem;
+    padding: 0 2rem 0 0;
 }
 
 .intro > button {
-  border: 1px var(--secondary) solid;
-  background-color: transparent;
-  color: var(--secondary);
-  font-size: 1.5rem;
-  font-weight: 600;
-  padding: 0.8rem 2rem;
-  margin: 3rem 0 0 0;
+    border: 1px var(--secondary) solid;
+    background-color: transparent;
+    color: var(--secondary);
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 0.8rem 2rem;
+    margin: 3rem 0 0 0;
 }
 
 .intro > button:hover {
-  background-color: #ffffff1f;
-  color: var(--secondary);
+    background-color: #ffffff1f;
+    color: var(--secondary);
 }
 
 @keyframes d1 {
-  0% {
-    left: -100px;
-    top: 0px;
-  }
+    0% {
+        left: -100px;
+        top: 0px;
+    }
 
-  50% {
-    left: 20px;
-    top: 0px;
-  }
-  100% {
-    left: 0px;
-    top: 0px;
-  }
+    50% {
+        left: 20px;
+        top: 0px;
+    }
+    100% {
+        left: 0px;
+        top: 0px;
+    }
 }
 
 @keyframes d2 {
-  0% {
-    left: -100px;
-    top: 0px;
-  }
-  50% {
-    left: 10px;
-    top: 0px;
-  }
-  100% {
-    left: 0px;
-    top: 0px;
-  }
+    0% {
+        left: -100px;
+        top: 0px;
+    }
+    50% {
+        left: 10px;
+        top: 0px;
+    }
+    100% {
+        left: 0px;
+        top: 0px;
+    }
 }
 
 @keyframes d3 {
-  0% {
-    left: -100px;
-    top: 0px;
-  }
-  100% {
-    left: 0px;
-    top: 0px;
-  }
+    0% {
+        left: -100px;
+        top: 0px;
+    }
+    100% {
+        left: 0px;
+        top: 0px;
+    }
 }
 
 .right {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
+    /* border: 1px red solid; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .image {
-  border-bottom: 15px var(--secondary) solid;
-  padding: 1rem;
-  /* width: 70%; */
-  width: 30rem;
-  border-radius: 70% 30% 30% 70% / 60% 40% 60% 40%;
-  display: grid;
-  place-items: center;
-  /* animation: rotate 10s linear infinite; */
-  /* animation: image 10s linear forwards infinite; */
+    border-bottom: 15px var(--secondary) solid;
+    padding: 1rem;
+    /* width: 70%; */
+    width: 30rem;
+    border-radius: 70% 30% 30% 70% / 60% 40% 60% 40%;
+    display: grid;
+    place-items: center;
+    /* animation: rotate 10s linear infinite; */
 }
 
-/* @keyframes image {
-  0% {
-    border-left: 15px var(--tertiary) solid;
-  }
-  25% {
-    border-top: 15px var(--secondary) solid;
-  }
-  50% {
-    border-right: 15px var(--secondary) solid;
-  }
-  100% {
-    border-bottom: 15px var(--secondary) solid;
-  }
-} */
+@keyframes image {
+    0% {
+        /* border-left: 15px var(--tertiary) solid; */
+        border-bottom-style: dotted;
+    }
+    25% {
+        /* border-top: 15px var(--secondary) solid; */
+        border-left-style: dotted;
+    }
+    50% {
+        /* border-right: 15px var(--secondary) solid; */
+        border-top-style: dotted;
+    }
+    100% {
+        /* border-bottom: 15px var(--secondary) solid; */
+        border-right-style: dotted;
+    }
+}
 
 @keyframes rotate {
-  from {
-    transform: rotate(0);
-  }
+    from {
+        transform: rotate(0);
+    }
 
-  to {
-    transform: rotate(360deg);
-  }
+    to {
+        transform: rotate(360deg);
+    }
 }
 
 .image > img {
-  width: 100%;
-  border-radius: 70% 30% 30% 70% / 60% 40% 60% 40%;
-  border-right-style: dotted;
-  border-color: var(--secondary);
-  display: grid;
-  place-items: center;
+    width: 100%;
+    border-radius: 70% 30% 30% 70% / 60% 40% 60% 40%;
+    border-right-style: dotted;
+    border-color: var(--secondary);
+    display: grid;
+    place-items: center;
 }
 
 .social {
-  display: flex;
-  flex-direction: row;
-  gap: 1rem;
-  margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-top: 2rem;
 }
 
 .socialBox {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 1rem;
-}
-
-.socialBox > div {
-  /* border: 1px #fff solid; */
-  font-size: 2rem;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  gap: 0.4rem;
-}
-
-.socialBox > div a {
-  color: var(--secondary);
-  display: flex;
-}
-
-.socialBox > div a:hover {
-  color: var(--tertiary);
-}
-
-.line {
-  width: 3rem;
-  height: 0;
-  border: 1px solid #ffffff;
-  /* margin: 3px; */
-  display: inline-block;
-  margin-left: 0.2rem;
-  transition: 0.2s ease-out;
-}
-
-.intro:hover .line {
-  margin-left: 0.8rem;
-}
-
-@media (max-width: 990px) {
-  .wrapper {
-    /* border: 1px red solid; */
-    padding: 3rem 2rem 5rem 2rem;
-    grid-template-columns: repeat(1, 1fr);
-  }
-
-  .right {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
+    gap: 1rem;
+}
 
-  .image {
-    width: 70%;
-    margin: 2rem 0 4rem 0;
-  }
-
-  .socialBox {
+.socialBox > div {
+    /* border: 1px #fff solid; */
+    font-size: 2rem;
     display: flex;
     flex-direction: row;
-    gap: 3rem;
-  }
+    justify-content: center;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+.socialBox > div a {
+    color: var(--secondary);
+    display: flex;
+}
+
+.socialBox > div a:hover {
+    color: var(--tertiary);
+}
+
+.line {
+    width: 3rem;
+    height: 0;
+    border: 1px solid #ffffff;
+    /* margin: 3px; */
+    display: inline-block;
+    margin-left: 0.2rem;
+    transition: 0.2s ease-out;
+}
+
+.intro:hover .line {
+    margin-left: 0.8rem;
+}
+
+@media (max-width: 990px) {
+    .wrapper {
+        /* border: 1px red solid; */
+        padding: 3rem 2rem 5rem 2rem;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .right {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .image {
+        width: 70%;
+        margin: 2rem 0 4rem 0;
+    }
+
+    .socialBox {
+        display: flex;
+        flex-direction: row;
+        gap: 3rem;
+    }
 }
