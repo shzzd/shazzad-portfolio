@@ -178,6 +178,19 @@
   justify-content: center;
   align-items: center;
   gap: 1rem;
+  animation: gap 2s ease-in-out;
+}
+
+@keyframes gap {
+  0% {
+    gap: 8rem;
+  }
+  50% {
+    gap: 0rem;
+  }
+  100% {
+    gap: 1rem;
+  }
 }
 
 .socialBox > div {
@@ -188,7 +201,16 @@
   justify-content: center;
   align-items: center;
   gap: 0.4rem;
+  /* animation: rotateZ 2s linear infinite; */
 }
+
+/* @keyframes rotateZ {
+  to {
+    transform: rotateY(360deg);
+    transform: rotateX(360deg);
+    transform: rotateZ(360deg);
+  }
+} */
 
 .socialBox > div a {
   color: var(--secondary);
