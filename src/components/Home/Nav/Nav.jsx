@@ -5,35 +5,54 @@ import classes from "./Nav.module.css";
 export default function Nav() {
   const [page, setPage] = useState(0);
   const [slider, setSlider] = useState(false);
+
+  // const handleClick = (pageNo) => {
+  //   setPage(pageNo)
+
+  // }
+
   return (
     <>
       <div className={classes.wrapper}>
         <div>Folio.</div>
         <div className={classes.options}>
-          <div
+          {/* <div> */}
+          <a
+            href="#Home"
             className={page === 0 && classes.border}
             onClick={() => page !== 0 && setPage(0)}
           >
             Home
-          </div>
-          <div
+          </a>
+          {/* </div> */}
+          <a
+            href="#About"
             className={page === 1 && classes.border}
             onClick={() => page !== 1 && setPage(1)}
           >
             About
-          </div>
-          <div
+          </a>
+          <a
+            href="#Service"
             className={page === 2 && classes.border}
             onClick={() => page !== 2 && setPage(2)}
           >
-            Project
-          </div>
-          <div
+            Service
+          </a>
+          <a
+            href="#Project"
             className={page === 3 && classes.border}
             onClick={() => page !== 3 && setPage(3)}
           >
+            Project
+          </a>
+          <a
+            href="#Contact"
+            className={page === 4 && classes.border}
+            onClick={() => page !== 4 && setPage(4)}
+          >
             Contact
-          </div>
+          </a>
         </div>
         <div
           onClick={() => (!slider ? setSlider(true) : setSlider(false))}
@@ -45,30 +64,41 @@ export default function Nav() {
         </div>
       </div>
       <div className={!slider ? classes.sliderClose : classes.slider}>
-        <div
+        <a
+          href="#Home"
           className={page === 0 && classes.borderMob}
           onClick={() => page !== 0 && setPage(0)}
         >
           Home
-        </div>
-        <div
+        </a>
+        <a
+          href="#About"
           className={page === 1 && classes.borderMob}
           onClick={() => page !== 1 && setPage(1)}
         >
           About
-        </div>
-        <div
+        </a>
+        <a
+          href="#Service"
           className={page === 2 && classes.borderMob}
           onClick={() => page !== 2 && setPage(2)}
         >
-          Project
-        </div>
-        <div
+          Service
+        </a>
+        <a
+          href="#Project"
           className={page === 3 && classes.borderMob}
           onClick={() => page !== 3 && setPage(3)}
         >
+          Project
+        </a>
+        <a
+          href="#Contact"
+          className={page === 4 && classes.borderMob}
+          onClick={() => page !== 4 && setPage(4)}
+        >
           Contact
-        </div>
+        </a>
         <AiOutlineClose
           className={classes.close}
           onClick={() => (!slider ? setSlider(true) : setSlider(false))}

@@ -27,12 +27,14 @@
   cursor: pointer;
 }
 
-.options div {
+.options a {
   transition: 0.2s ease-in-out;
   font-size: 1.2rem;
+  text-decoration: none;
+  color: var(--secondary);
 }
 
-.options div:hover {
+.options a:hover {
   border-bottom: 2px var(--secondary) solid;
   padding-bottom: 0.2rem;
 }
@@ -92,7 +94,8 @@
   }
 
   .slider {
-    display: block;
+    display: flex;
+    flex-direction: column;
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -100,12 +103,22 @@
     background-color: rgba(162, 162, 162, 0.969);
     z-index: 100;
     padding: 4rem 0 0 0;
+    animation: slider 0.3s ease;
   }
 
-  .slider > div {
-    padding: 2rem;
+  @keyframes slider {
+    from {
+      bottom: -10rem;
+    }
+  }
+
+  .slider > a {
+    padding: 1.5rem;
     text-align: left;
-    font-size: 2rem;
+    font-size: 1.8rem;
+    text-decoration: none;
+    color: var(--secondary);
+    /* width: 100%; */
   }
 
   .borderMob {

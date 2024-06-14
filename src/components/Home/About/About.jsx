@@ -4,9 +4,9 @@ import image from "../../../assets/images/b.jpeg";
 
 export default function About() {
   return (
-    <div className={classes.wrapper}>
+    <div id="About" className={classes.wrapper}>
       <div className={classes.left}>
-        <img src={image} alt="" />
+        <img src={image} alt="" loading="lazy" />
       </div>
       <div className={classes.right}>
         <div>

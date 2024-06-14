@@ -46,8 +46,8 @@ export default function Project() {
           </div>
         </PopUpTemplate2>
       )}
-      <div className={classes.wrapper}>
-        <div>
+      <div id="Project" className={classes.wrapper}>
+        <div className={classes.title}>
           <p>Projects</p>
           <p>Some of My Distinguish Work</p>
           <p></p>
@@ -55,20 +55,60 @@ export default function Project() {
         <div className={classes.officials}>
           <div className={classes.projects}>
             <div>
-              <img onClick={() => handleImage(0)} src={img[0]} alt="" />
-              <img onClick={() => handleImage(1)} src={img[1]} alt="" />
+              <img
+                onClick={() => handleImage(0)}
+                src={img[0]}
+                alt=""
+                loading="lazy"
+              />
+              <img
+                onClick={() => handleImage(1)}
+                src={img[1]}
+                alt=""
+                loading="lazy"
+              />
             </div>
             <div>
-              <img onClick={() => handleImage(2)} src={img[2]} alt="" />
-              <img onClick={() => handleImage(3)} src={img[3]} alt="" />
+              <img
+                onClick={() => handleImage(2)}
+                src={img[2]}
+                alt=""
+                loading="lazy"
+              />
+              <img
+                onClick={() => handleImage(3)}
+                src={img[3]}
+                alt=""
+                loading="lazy"
+              />
             </div>
             <div>
-              <img onClick={() => handleImage(4)} src={img[4]} alt="" />
-              <img onClick={() => handleImage(5)} src={img[5]} alt="" />
+              <img
+                onClick={() => handleImage(4)}
+                src={img[4]}
+                alt=""
+                loading="lazy"
+              />
+              <img
+                onClick={() => handleImage(5)}
+                src={img[5]}
+                alt=""
+                loading="lazy"
+              />
             </div>
             <div>
-              <img onClick={() => handleImage(6)} src={img[6]} alt="" />
-              <img onClick={() => handleImage(7)} src={img[7]} alt="" />
+              <img
+                onClick={() => handleImage(6)}
+                src={img[6]}
+                alt=""
+                loading="lazy"
+              />
+              <img
+                onClick={() => handleImage(7)}
+                src={img[7]}
+                alt=""
+                loading="lazy"
+              />
             </div>
           </div>
           {/* <div className={classes.work}>

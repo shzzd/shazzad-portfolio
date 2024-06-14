@@ -6,7 +6,7 @@
   padding: 5rem;
 }
 
-.wrapper > div:nth-child(1) {
+.title {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
@@ -14,18 +14,18 @@
   margin-bottom: 3rem;
 }
 
-.wrapper > div:nth-child(1) > p:nth-child(1) {
+.title > p:nth-child(1) {
   font-size: 2rem;
   color: var(--tertiary);
 }
 
-.wrapper > div:nth-child(1) > p:nth-child(2) {
+.title > p:nth-child(2) {
   font-size: 3rem;
   font-weight: bold;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
-.wrapper > div:nth-child(1) > p:nth-child(3) {
+.title > p:nth-child(3) {
   border-bottom: 1px grey solid;
   width: 30rem;
   margin: 0.5rem auto;
@@ -107,8 +107,8 @@
 
 .fullImage {
   /* border-radius: 0.5rem; */
-  background-color: transparent;
-  box-shadow: 0 0 0.125rem 0 rgba(0, 0, 0, 0.2),
+  background-color: rgba(0, 0, 0, 0.108);
+  box-shadow: 0 0 0.125rem 0 rgba(0, 0, 0, 0.087),
     0 0.125rem 0.1875rem 0.06rem rgba(0, 0, 0, 0.24);
   position: absolute;
   top: 50%;
@@ -189,11 +189,11 @@
     grid-template-columns: repeat(1, 1fr);
   }
 
-  .wrapper > div:nth-child(1) > p:nth-child(2) {
+  .title > p:nth-child(2) {
     font-size: 3rem;
   }
 
-  .wrapper > div:nth-child(1) > p:nth-child(3) {
+  .title > p:nth-child(3) {
     width: 100%;
   }
 

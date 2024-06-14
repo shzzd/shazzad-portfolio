@@ -48,7 +48,7 @@ export default function Portfolio() {
       </div>
       <div className={classes.right}>
         <div className={classes.image}>
-          <img src={image} alt="" />
+          <img src={image} alt="" loading="lazy" />
         </div>
         <div className={classes.socialBox}>
           <div>
