@@ -13,7 +13,7 @@ export default function Home() {
       <Portfolio />
       <About />
       <Service />
-      {/* <Project /> */}
+      <Project />
     </div>
   );
 }

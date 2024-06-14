@@ -1,0 +1,47 @@
+/* body.activeModel {
+    overflow-y: hidden;
+} */
+
+.model,
+.overlay {
+  border: none;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+  z-index: 200;
+}
+
+.overlay {
+  background-color: rgba(124, 124, 124, 0.195);
+}
+
+/* .model {
+    border: 1px green solid;
+    position: fixed;
+    overflow: hidden;
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background-color: rgba(215, 223, 255, 0.205);
+}
+
+.overlay {
+    border: 1px red solid;
+    position: fixed;
+    overflow: hidden;
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background-color: rgba(215, 223, 255, 0.205);
+} */
+
+@media (max-width: 430px) {
+}
