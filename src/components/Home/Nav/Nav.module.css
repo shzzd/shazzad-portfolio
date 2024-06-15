@@ -1,13 +1,16 @@
 .wrapper {
-  /* box-shadow: 0.1rem 0.1rem 0.9rem 0.01rem rgb(234, 234, 234); */
+  /* box-shadow: 0.1rem 0.1rem 0.9rem 0.01rem rgba(126, 126, 126, 0.443); */
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 2rem 5rem;
-  background-color: var(--primary);
+  padding: 1.5rem 0rem;
+  background-color: rgba(0, 0, 0, 0.705);
   color: var(--secondary);
-  position: relative;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
 }
 
 .wrapper > div:nth-child(1) {
@@ -16,6 +19,7 @@
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   cursor: default;
   color: var(--tertiary);
+  margin-left: 5rem;
 }
 
 .options {
@@ -25,6 +29,7 @@
   align-items: center;
   gap: 2rem;
   cursor: pointer;
+  margin-right: 5rem;
 }
 
 .options a {
@@ -58,11 +63,13 @@
 
 @media (max-width: 990px) {
   .wrapper {
-    padding: 2rem 2rem;
+    padding: 2rem 0;
+    position: relative;
   }
 
   .wrapper > div:nth-child(1) {
     font-size: 3rem;
+    margin-left: 2rem;
   }
 
   .options {
@@ -73,6 +80,7 @@
   .optionsMobClose {
     display: block;
     position: relative;
+    margin-right: 2rem;
   }
 
   .optionsMob > span,

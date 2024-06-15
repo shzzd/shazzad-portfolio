@@ -1,20 +1,38 @@
 .wrapper {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  background-color: var(--grey);
+  background-color: var(--primary);
   color: var(--secondary);
   padding: 2rem 0;
 }
 
 .left {
-  border-left: 1px var(--tertiary) solid;
-  border-bottom: 1px var(--tertiary) solid;
+  /* border-bottom: 1px var(--tertiary) solid; */
   padding: 1rem;
   margin: 5rem;
+  position: relative;
 }
 
+.left::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 90%;
+  height: 90%;
+  border: 1px var(--tertiary) dotted;
+  z-index: 0;
+  /* border-left: 2px var(--tertiary) solid; */
+}
+
+/* .left::before{} */
+
 .left > img {
+  border: 1px var(--tertiary) dotted;
   width: 100%;
+  position: relative;
+  z-index: 1;
 }
 
 .right {

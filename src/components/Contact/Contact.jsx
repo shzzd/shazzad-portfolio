@@ -37,7 +37,7 @@ export default function Contact() {
         <div className={classes.contact}>
           <p>Start a project?</p>
           <p>
-            <MdOutlineMailOutline className={classes.iconCantact} />
+            <MdOutlineMailOutline className={classes.iconMail} />
             shazzadurrahman787@gmail.com
           </p>
           <p>

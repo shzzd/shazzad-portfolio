@@ -1,8 +1,11 @@
 .wrapper {
   display: flex;
   flex-direction: column;
+  align-items: center;
   background-color: var(--primary);
   padding: 5rem;
+  color: #fff;
+  margin-bottom: 5rem;
 }
 
 .title {
@@ -10,7 +13,7 @@
   flex-direction: column;
   gap: 0.5rem;
   color: var(--secondary);
-  margin-bottom: 3rem;
+  margin-bottom: 5rem;
 }
 
 .title > p:nth-child(1) {
@@ -33,12 +36,11 @@
 .wrapper > div:nth-child(2) {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  gap: 5rem;
+  justify-content: flex-start;
+  gap: 10rem;
 }
 
 .social {
-  /* width: 50%; */
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
@@ -52,6 +54,7 @@
   gap: 1rem;
   font-size: 1.5rem;
   color: rgb(217, 217, 217);
+  text-align: left;
 }
 
 .icon {
@@ -72,6 +75,10 @@
   align-items: center;
   justify-content: center;
   gap: 1rem;
+  text-align: left;
+  word-break: break-word;
+  font-size: 1.8rem;
+  color: var(--secondary);
 }
 
 .contact > p:nth-child(1) {
@@ -81,14 +88,7 @@
 }
 
 .contact > p:nth-child(2) {
-  font-size: 1.8rem;
-  color: rgb(217, 217, 217);
-  margin-bottom: 0.2rem;
-}
-
-.contact > p:nth-child(3) {
-  font-size: 1.8rem;
-  color: rgb(217, 217, 217);
+  margin-bottom: 0.5rem;
 }
 
 @media (max-width: 430px) {
@@ -97,7 +97,7 @@
   }
 
   .title > p:nth-child(2) {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 
   .title > p:nth-child(3) {
@@ -107,5 +107,17 @@
   .wrapper > div:nth-child(2) {
     flex-direction: column;
     gap: 5rem;
+  }
+
+  .social > div {
+    font-size: 1.2rem;
+  }
+
+  .contact > p {
+    font-size: 1.2rem;
+  }
+
+  .contact > p:nth-child(1) {
+    font-size: 2rem;
   }
 }

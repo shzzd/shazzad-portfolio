@@ -11,7 +11,7 @@ import { PiGraph } from "react-icons/pi";
 export default function Service() {
   return (
     <div id="Service" className={classes.wrapper}>
-      <div>
+      <div className={classes.title}>
         <p>Services</p>
         <p>What I'm Great at</p>
         <p></p>
