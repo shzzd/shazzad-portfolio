@@ -10,7 +10,7 @@ import { usePDF } from "react-to-pdf";
 import resumePdf from "../../../assets/pdf/resume_Shazzadur_Rahman.pdf";
 
 export default function Portfolio() {
-const { toPDF, targetRef } = usePDF({
+usePDF({
     filename: resumePdf,
   });
 
@@ -52,6 +52,7 @@ const { toPDF, targetRef } = usePDF({
         </div>
         <div className={classes.socialBox}>
           <div>
+            <span className={classes.hoverText}>LinkedIn</span>
             <Link
               to={"https://www.linkedin.com/in/shazzadur-rahman-36b087207/"}
             >
@@ -59,16 +60,19 @@ const { toPDF, targetRef } = usePDF({
             </Link>
           </div>
           <div>
+            <span className={classes.hoverText}>GitHub</span>
             <Link to={"https://www.github.com/shzzd/"}>
               <FaGithub />
             </Link>
           </div>
           <div>
+            <span className={classes.hoverText}>Facebook</span>
             <Link to={"https://www.facebook.com/shazzadur.rahman.359/"}>
               <FaSquareFacebook />
             </Link>
           </div>
           <div>
+            <span className={classes.hoverText}>Instagram</span>
             <Link to={"https://www.instagram.com/shazzadbinnoor/"}>
               <FaInstagram />
             </Link>
