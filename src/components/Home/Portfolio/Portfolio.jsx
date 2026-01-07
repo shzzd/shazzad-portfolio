@@ -10,7 +10,7 @@ import { usePDF } from "react-to-pdf";
 import resumePdf from "../../../assets/pdf/resume_Shazzadur_Rahman.pdf";
 
 export default function Portfolio() {
-  const { toPDF, targetRef } = usePDF({
+const { toPDF, targetRef } = usePDF({
     filename: resumePdf,
   });
 
@@ -32,7 +32,7 @@ export default function Portfolio() {
           <p className={classes.line}></p>
         </div>
         <div>Shazzadur Rahman</div>
-        <div>Software Engineer (Front End)</div>
+        <div>Software Engineer</div>
         {/* <div>
           A meticulous and erudite catalyst with a strong passion for software
           and AI. Acquired skills ranging from analytics and development to
