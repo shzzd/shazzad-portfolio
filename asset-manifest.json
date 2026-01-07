@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/shazzad-portfolio/static/css/main.34b06f8b.css",
-    "main.js": "/shazzad-portfolio/static/js/main.073882fe.js",
+    "main.css": "/shazzad-portfolio/static/css/main.9862e03b.css",
+    "main.js": "/shazzad-portfolio/static/js/main.07342bbe.js",
     "static/js/213.91955714.chunk.js": "/shazzad-portfolio/static/js/213.91955714.chunk.js",
-    "static/js/732.38c0e81e.chunk.js": "/shazzad-portfolio/static/js/732.38c0e81e.chunk.js",
+    "static/js/455.17a2ab4b.chunk.js": "/shazzad-portfolio/static/js/455.17a2ab4b.chunk.js",
     "static/js/453.49bbae1c.chunk.js": "/shazzad-portfolio/static/js/453.49bbae1c.chunk.js",
     "static/media/IMG_0064.GIF": "/shazzad-portfolio/static/media/IMG_0064.391a5047a703ce22e6cb.GIF",
     "static/media/GIF_MachineLearning.gif": "/shazzad-portfolio/static/media/GIF_MachineLearning.8b848bbf33eecf4ca710.gif",
@@ -13,9 +13,9 @@
     "static/media/parallax-animation.gif": "/shazzad-portfolio/static/media/parallax-animation.79d0de745b60785bfb25.gif",
     "static/media/1_tZl19oAzRw300ociN47vvg.gif": "/shazzad-portfolio/static/media/1_tZl19oAzRw300ociN47vvg.d10549edc3eab8f07e2e.gif",
     "static/media/mb.png": "/shazzad-portfolio/static/media/mb.9dcf2cf1a87e700309a2.png",
+    "static/media/resume_Shazzadur_Rahman.pdf": "/shazzad-portfolio/static/media/resume_Shazzadur_Rahman.25ba96721dc227b9f31b.pdf",
     "static/media/bdprodlist.png": "/shazzad-portfolio/static/media/bdprodlist.a8860c350760a96ebacf.png",
     "static/media/cd.png": "/shazzad-portfolio/static/media/cd.fe0a65bb9097facb2a66.png",
-    "static/media/resume_Shazzadur_Rahman.pdf": "/shazzad-portfolio/static/media/resume_Shazzadur_Rahman.2a2923b7e3b27d4f1934.pdf",
     "static/media/bdsub.png": "/shazzad-portfolio/static/media/bdsub.93b1c5626d2a8e600904.png",
     "static/media/bddoc.png": "/shazzad-portfolio/static/media/bddoc.31270946935071a16257.png",
     "static/media/dtAdmin.png": "/shazzad-portfolio/static/media/dtAdmin.5c28c40474b103b63ca0.png",
@@ -23,16 +23,15 @@
     "static/media/dt.png": "/shazzad-portfolio/static/media/dt.165c7f9b01940c3bf608.png",
     "static/media/dt2.png": "/shazzad-portfolio/static/media/dt2.6731fda0b60f3b71a773.png",
     "static/media/b.jpeg": "/shazzad-portfolio/static/media/b.77582a6543fcdf432c88.jpeg",
-    "static/media/logo.svg": "/shazzad-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/shazzad-portfolio/index.html",
-    "main.34b06f8b.css.map": "/shazzad-portfolio/static/css/main.34b06f8b.css.map",
-    "main.073882fe.js.map": "/shazzad-portfolio/static/js/main.073882fe.js.map",
+    "main.9862e03b.css.map": "/shazzad-portfolio/static/css/main.9862e03b.css.map",
+    "main.07342bbe.js.map": "/shazzad-portfolio/static/js/main.07342bbe.js.map",
     "213.91955714.chunk.js.map": "/shazzad-portfolio/static/js/213.91955714.chunk.js.map",
-    "732.38c0e81e.chunk.js.map": "/shazzad-portfolio/static/js/732.38c0e81e.chunk.js.map",
+    "455.17a2ab4b.chunk.js.map": "/shazzad-portfolio/static/js/455.17a2ab4b.chunk.js.map",
     "453.49bbae1c.chunk.js.map": "/shazzad-portfolio/static/js/453.49bbae1c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.34b06f8b.css",
-    "static/js/main.073882fe.js"
+    "static/css/main.9862e03b.css",
+    "static/js/main.07342bbe.js"
   ]
 }
