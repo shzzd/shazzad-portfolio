@@ -64,6 +64,7 @@
 .intro > button:hover {
   background-color: #ffffff1f;
   color: var(--secondary);
+  cursor: pointer;
 }
 
 @keyframes d1 {
