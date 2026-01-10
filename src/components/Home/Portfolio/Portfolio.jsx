@@ -10,9 +10,9 @@ import { usePDF } from "react-to-pdf";
 import resumePdf from "../../../assets/pdf/resume_Shazzadur_Rahman.pdf";
 
 export default function Portfolio() {
-usePDF({
-    filename: resumePdf,
-  });
+  usePDF({
+      filename: resumePdf,
+    });
 
   const onButtonClick = () => {
     const pdfUrl = resumePdf;
@@ -25,7 +25,7 @@ usePDF({
   };
 
   return (
-    <div className={classes.wrapper}>
+    <div id="Home" className={classes.wrapper}>
       <div className={classes.intro}>
         <div>
           Hello I'm
